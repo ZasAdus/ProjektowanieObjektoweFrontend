@@ -3,7 +3,6 @@ export async function fetchProducts() {
   return res.json();
 }
 
-
 export async function updateProduct(id, data) {
   const res = await fetch(`http://localhost:8080/api/payments/${id}`, {
     method: "PUT",
