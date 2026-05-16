@@ -19,12 +19,4 @@ export default [
       "no-unused-vars": "error",
     },
   },
-  {
-    files: ["**/*.test.{js,jsx}"],
-    languageOptions: {
-      globals: {
-        ...globals.jest,
-      },
-    },
-  },
 ];

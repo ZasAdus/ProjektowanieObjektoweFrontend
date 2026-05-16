@@ -1,20 +1,16 @@
 {
   "devDependencies": {
+    "husky": "^9.1.7",
     "@eslint/js": "^10.0.1",
     "eslint": "^10.4.0",
-    "globals": "^17.6.0",
-    "husky": "^9.1.7",
-    "lint-staged": "^17.0.5",
-    "prettier": "^3.8.3"
+    "lint-staged": "^17.0.5"
   },
   "scripts": {
     "prepare": "husky"
   },
   "lint-staged": {
   "frontend/**/*.{js,jsx}": [
-    "eslint --no-warn-ignored"
+    "eslint"
   ]
-  },
-  "type": "module",
-  "name": "zadanie6"
+  }
 }
